@@ -47,4 +47,5 @@
 * `:n newfile` 新建文件并编辑
 * `:sp filename` 横向分屏编辑同一个(两个)文件, 窗口操作 `ctrl + w`
 * `:open filename` 编辑文件的时候打开新的文件
-* `:/` 全文查找, `n`下一处, `N`上一处
+* `/` 全文查找, `n`下一处, `N`上一处
+* `:s/train/test/g` 替换命令, 将本行的 `train` 替换成 `test`
