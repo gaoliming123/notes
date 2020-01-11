@@ -49,3 +49,4 @@
 * `:open filename` 编辑文件的时候打开新的文件
 * `/` 全文查找, `n`下一处, `N`上一处
 * `:s/train/test/g` 替换命令, 将本行的 `train` 替换成 `test`
+* `:%s/train/test/g` 替换命令, 将每一行的 `train` 替换成 `test`
