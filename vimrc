@@ -1,6 +1,9 @@
 " vim config for myself
 
 inoremap kj <Esc>
+inoremap KJ <Esc>
+inoremap kJ <Esc>
+inoremap Kj <Esc>
 
 map <C-j> <C-W>j
 map <C-h> <C-W>h
