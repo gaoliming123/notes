@@ -13,7 +13,7 @@ do
        then
          echo 'run'
          #改动项 前面输入占用的gpu id 后面是运行代码
-         python model_train.py --data_path ../final_dataset --gnn_model jknet --hidden_dim 64 --n_layers 4 --fanout 10,10,10,10 --batch_size 1024 --GPU 1 --out_path outputs
+         python model_train.py -gpu 2
      fi
   fi
   sleep 2
