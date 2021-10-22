@@ -4,7 +4,7 @@ while true
 do
   count=$(ps -ef | grep -c kk_test)
   if [ $count -lt 2 ] 
-    the
+    then
      # 改动项 查询第1块gpu的容量--2p 第2块3p--2  第三块--4p  第四块--5p
      stat2=$(gpustat | awk '{print $14}' | sed -n '3p')
      memory=`echo  ${stat2} | tr -cd "[0-9]" `
