@@ -6,6 +6,7 @@ from PIL import Image
 import ddddocr
  
 browser = webdriver.Chrome()
+# 预约羽毛球
 browser.get("https://gym.sysu.edu.cn/product/show.html?id=35")
 browser.maximize_window()
 order_button = browser.find_elements_by_xpath('//div[@class="boxes"]/a')[0]
