@@ -10,3 +10,8 @@ username.send_keys('username') #用户名
 pwd.send_keys('password') # 密码
 rangle = (1155, 850, 1333, 907) #验证码在网页中的位置
 ```
+
+使用`crontab`定时启动程序
+```
+00 6 * * * python path/badminton/main.py >> path/badminton/log.txt 2>&1
+```
