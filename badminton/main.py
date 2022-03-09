@@ -5,7 +5,7 @@ from selenium import webdriver
 from PIL import Image
 import ddddocr
  
-browser = webdriver.Chrome()
+browser = webdriver.Chrome(<path/chromedriver>)
 # 预约羽毛球
 browser.get("https://gym.sysu.edu.cn/product/show.html?id=35")
 browser.maximize_window()
